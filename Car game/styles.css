@@ -1,0 +1,60 @@
+
+.hide{
+    display: none;
+}
+
+.car, .enemy{
+    position: absolute;
+    bottom: 100px;
+    margin: auto;
+    width: 50px;
+    height: 99px;
+    background-color: aqua;
+    text-align: center;
+    font-size: 2.5em;
+    background-image: url(car.png);
+
+    background-size: cover;
+}
+
+.gameArea{
+    background-color: black;
+    width: 400px;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+
+}
+
+.line{
+    position: absolute;
+    height: 100px;
+    width: 10px;
+    margin-left:195px;;
+    background-color:white; 
+}
+
+.score{
+    text-align: center;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: white;
+    padding:10px;
+    line-height: 2;
+}
+.startScreen{
+    position: absolute;
+    background-color: red;
+    left:25%;
+    top: 100px;
+    color:white;
+    z-index: 1;
+    text-align: center;
+    border: 5px solid red;
+    margin: auto;
+    padding:10px;
+    width: 50%;
+    font-family:sans-serif;
+}
